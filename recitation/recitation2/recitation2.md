@@ -77,6 +77,7 @@ Please enter a value for cold resevoir:
 Please enter a value for hot resevoir:
 50
 Carnot Efficiency: 0.099
+<br/>
 
 -----------------------------
 
