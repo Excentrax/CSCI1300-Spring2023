@@ -46,11 +46,12 @@ Carnot efficiency: 0.129
 a. Write pseudocode for the program above. 
 **(Remember giving meaningful names to variables that accurately describe their purpose)**
 
-### Pseudocode:
+### Pseudocode
 
-<br/><br/>
-<br/><br/>
-<br/><br/>
+declare variables for hot, cold, and carnot value. hot and cold are int, carnot is double.
+take user input for hot and cold.
+convert to kelvin.
+use algebra to solve for the carnot value.
 
 -----------------------------
 b. Imagine how a sample run of your program would look like. Think about at least two examples
@@ -59,9 +60,11 @@ b. Imagine how a sample run of your program would look like. Think about at leas
 
 -----------------------------
 
-<br/><br/>
-<br/><br/>
-<br/><br/>
+Please enter a value for cold resevoir:
+10
+Please enter a value for hot resevoir:
+500
+Carnot Efficiency: 0.712
 
 -----------------------------
 
@@ -69,9 +72,11 @@ b. Imagine how a sample run of your program would look like. Think about at leas
 
 -----------------------------
 
-<br/><br/>
-<br/><br/>
-<br/><br/>
+Please enter a value for cold resevoir:
+1
+Please enter a value for hot resevoir:
+50
+Carnot Efficiency: 0.099
 
 -----------------------------
 
@@ -79,9 +84,11 @@ b. Imagine how a sample run of your program would look like. Think about at leas
 
 -----------------------------
 
-<br/><br/>
-<br/><br/>
-<br/><br/>
+Please enter a value for cold resevoir:
+100
+Please enter a value for hot resevoir:
+700
+Carnot Efficiency: 0.719
 
 -----------------------------
 c. Write your C++ solution in VS Code. Save the file as carnot.cpp. Compile it and run it a few times, with the example values you used in Sample Run 1, 2 and 3. What  do you notice? Is your answer always an integer (1 or 0 maybe)? Write your best guess for why this is happening.
@@ -89,9 +96,7 @@ c. Write your C++ solution in VS Code. Save the file as carnot.cpp. Compile it a
 ### Answer:
 -----------------------------
 
-<br/><br/>
-<br/><br/>
-<br/><br/>
+Must cast the int variables to double.
 
 -----------------------------
 d. Revise your solution, save, compile and run it again. Are you getting the expected result and output? Keep revising until you do.
